@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Михайленко i Бондар</title>
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        
+        <div class="menu_div">
+            <div class="dropdown">
+                
+              <button class="dropbtn"><p class="p_menu" > <a href="./index.html" class="a_menu"> Головна сторінка </a></p></button>
+                
+              <div class="dropdown-content">
+
+              </div>
+            </div>
+                
+             
+            
+            <div class="dropdown">
+                
+              <button class="dropbtn"><p class="p_menu"> <a href="" class="a_menu"> Сторінки </a></p></button>
+                
+              <div class="dropdown-content">
+                <p class="p_menu"> <a href="table.html" class="a_menu">Центр допомоги </a></p>
+                <p class="p_menu"> <a href="html.html" class="a_menu">HTML5-файл</a></p>
+                <p class="p_menu"> <a href="css.html" class="a_menu">CSS-файл</a></p>
+              </div>
+                
+            </div>
+      
+            
+            <div class="dropdown">
+                
+              <button class="dropbtn"><p class="p_menu"> <a href="" class="a_menu"> Інструкція </a> </p></button>
+                
+              <div class="dropdown-content">
+                  <p class="p_menu"> <a href="./git.html" class="a_menu"> GitHub </a></p>
+                  <p class="p_menu"> <a href="./gitrep.html" class="a_menu"> Створення репозиторія </a></p>
+                  <p class="p_menu"> <a href="./githost.html" class="a_menu"> Хост </a></p>
+              </div>
+                
+            </div>           
+        
+            <div class="dropdown">
+                
+                <button class="dropbtn"><p class="p_menu"> <a href="" class="a_menu"> Як працює </a></p></button>
+                
+                <div class="dropdown-content">
+                    <p class="p_menu"> <a href="./index.html" class="a_menu"> HTML-файл </a></p>
+                    <p class="p_menu"> <a href="./js.html" class="a_menu"> js-файл </a></p>
+                    <p class="p_menu"> <a href="./css1.html" class="a_menu">CSS-файл  </a></p>
+                </div>
+                
+            </div>   
+            
+        </div>
+           
+        <div class="dir_inform">
+
+          <audio src="./audio/kuru.mp3" type="audio/mp3" autoplay="no" loop="yes" controls="controls"  >
+                <source src="audio/kuru.mp3" type="audio/mp3" >
+            </audio>
+
+        
+            <img src="gif/kururin-kuru-kuru.gif" alt="GIF" width="349" height="349" class="gif-container" visibility="hidden">
+
+            
+                
+                
+        
+               <h1 class="h1_text"> Що таке JavaScript (JS)?
+                JavaScript – це динамічна, об'єктно-орієнтована мова програмування, яка використовується для створення інтерактивних веб-сторінок. Вона дозволяє робити веб-сайти більш живими та динамічними, реагуючи на дії користувача.</h1><br>
+            <p class="ispovedyvania">Ми використовували її для того щоб появлялася гівка коли включається музика а коли вона виключена то вона пропадала </p>
+
+            <p class="ispovedyvania">пояснення коду</p>
+
+            <p class="ispovedyvania">**const audio = document.querySelector("audio");**</p>
+            <p class="ispovedyvania">Створюється змінна `audio`, яка зберігає посилання на елемент з тегом `<audio>` на сторінці.</p>
+
+            <p class="ispovedyvania">**const gifContainer = document.querySelector(".gif-container");**</p>
+            <p class="ispovedyvania">Створюється змінна `gifContainer`, яка зберігає посилання на елемент з класом `gif-container` (зазвичай це блок, де розміщена GIF-анімація).</p>
+
+            <p class="ispovedyvania">**audio.addEventListener("play", () => {**</p>
+            <p class="ispovedyvania">Додається слухач подій до елемента `audio`. Коли аудіо починає відтворюватися (подія "play"), виконується функція, яка описана в фігурних дужках.</p>
+
+            <p class="ispovedyvania">**gifContainer.style.visibility = "visible";**</p>
+            <p class="ispovedyvania">Коли аудіо починає відтворюватися, властивість `visibility` елемента `gifContainer` встановлюється в значення "visible". Це робить GIF-анімацію видимою.</p>
+
+            <p class="ispovedyvania">**audio.addEventListener("pause", () => {**</p>
+            <p class="ispovedyvania">Додається ще один слухач подій до елемента `audio`. Коли відтворення аудіо зупиняється (подія "pause"), виконується функція.</p>
+
+            <p class="ispovedyvania">**gifContainer.style.visibility = "hidden";**</p>
+            <p class="ispovedyvania">Коли аудіо зупиняється, властивість `visibility` елемента `gifContainer` встановлюється в значення "hidden". Це приховує GIF-анімацію.</p>
+ 
+        </div>
+        
+        <div class="menu_div">
+            <div class="dropdown">
+                
+              <button class="dropbtn"><p class="p_menu"> <a href="./table.html" class="a_menu"> Служба підтримки </a> </p></button>
+                
+                
+            </div>
+         </div>   
+
+
+    </body>
+    
+    <script src="./js/script.js"></script>
+</html>
