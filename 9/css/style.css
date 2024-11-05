@@ -1,0 +1,229 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+
+.menu_div{
+    background-color: #2D2D2D ;
+    height: auto;
+    color: #FFFFFF;
+    display: flex;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.tr_menu{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p_menu{
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a_menu{
+    color: #FFFFFF;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(
+    to right,
+    #ff7300,
+    #ffe600 50%,
+    #FFFFFF 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before{
+  content: '';
+  background: #5d5e5d;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+ background-position: 0;
+}
+
+a:hover::before{
+  width: 100%;
+}
+
+.dropbtn {
+    background-color: #2D2D2D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2D2D2D;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.a_menu{
+    margin: auto;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #2D2D2D;}
+
+/*******************************************************/
+
+.dir_inform{
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    background-color: #2B2D3D;
+    border-radius: 5px;
+   
+}
+
+.h6_dir_iform{
+    text-align: center;
+   color: #CFCFCF;
+}
+
+.p_pop{
+    text-align: right;
+    color: #CFCFCF;
+    margin-right: 15px;
+}
+
+.cover{
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_screen{
+    text-align: center;
+}
+
+p{
+    margin-left: 15px;
+    color: #CFCFCF;
+}
+
+h1{
+    margin-left: 15px;
+    color: #CFCFCF;
+}
+
+.img_screen{
+    margin-left: 25%;
+}
+
+audio{
+    margin-left: 15px;
+}
+.cod{
+    margin: 15px;
+  
+}
+
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+    animation-duration: 10s;
+}
+
+audio {
+  display: block;
+}
+
+.gif-container {
+  visibility: hidden;
+}
+
+.ispovedyvania{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #CFCFCF;
+    font-size: 18px;
+}
+.ispovedyvania_h1{
+    margin: 40px;
+    text-align: right;
+    color: #CFCFCF;
+    font-size:20px;
+}
+
+.h1_text{
+    margin-top: 120px;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+    color: #CFCFCF;
+    
+}
+
+/***********************************/
+
+.black{
+    background-color: #131313;
+}
+
+.blue{
+    background-color: #0005FF;
+}
+
+
+
+
+tr{
+    background-color: #FFFFFF;
+}
+
+table {
+    display: table;
+    justify-content: center;
+    margin: auto;
+}
