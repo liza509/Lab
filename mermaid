@@ -1,0 +1,27 @@
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER {
+        string customerId
+        string name
+        string address
+    }
+    ORDER {
+        int orderId
+        date orderDate
+        string status
+    }
+    LINE-ITEM {
+        int itemId
+        int orderId
+        int productId
+        int quantity
+        decimal price
+    }
+    PRODUCT {
+        string productId
+        string name
+        decimal price
+    }
+    LINE-ITEM ||--o{ PRODUCT : has
